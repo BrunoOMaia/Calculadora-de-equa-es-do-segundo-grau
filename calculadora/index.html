@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de equações do segundo grau</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Dela+Gothic+One&display=swap" rel="stylesheet">
+
+<body>
+    <div class="container">
+        <div class="container__conteudo">
+            <div class="container__informações">
+                <div class="container__texto">
+                    <h1 class="titulo">Calculadora de equações do <b class="negrito"><br>2° grau</b></h1>
+                    <h2 class="subtitulo">Digite os coeficientes da equação:</h2>
+                </div>
+                <section class="conteudo">
+                    <form action="">
+                        
+                        <div class="elementos">
+
+                            <div class="descrição">
+                                <h2 class="coeficiente1__descrição descrição__item">A</h2>
+                                <h2 class="coeficiente2__descrição descrição__item">B</h2>
+                                <h2 class="coeficiente3__descrição descrição__item">C</h2>
+
+                            </div>
+                            <div class="container__input">
+                               <input type="number" name="num1" id="num1" placeholder="Coeficiente 1" class="input1">
+                               <input type="number" name="num2" id="num2" placeholder="Coeficiente 2"class="input2">
+                            <input type="number" name="num3" id="num3" placeholder="Coeficiente 3"class="input3">
+                            </div>
+
+                        </div>
+
+        
+                        <div class="container__botões">
+                            <button id="calcular" class="botão1">Calcular</button>
+                            <button id="limpar" class="botão2">Limpar</button>
+                        </div>
+                        <div id="resultado" class="container__resultado">
+                            <div id="resultado1" class="resultado1"></div>
+                            
+                            <div id="resultado2" class="resultado2"></div>
+                        </div>
+        
+                    </form>
+                </section>
+               
+              
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
